@@ -31,7 +31,7 @@ export function Hero() {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat scale-105"
         style={{ 
-          backgroundImage: 'url("/hero-bg.jpg")' 
+          backgroundImage: `url("${import.meta.env.BASE_URL}hero-bg.jpg")` 
         }}
       />
       

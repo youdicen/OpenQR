@@ -42,7 +42,7 @@ export function Philosophy() {
       <div 
         ref={bgRef}
         className="absolute -top-[20%] left-0 w-full h-[140%] bg-cover bg-center bg-no-repeat opacity-20 mix-blend-overlay"
-        style={{ backgroundImage: 'url("/philosophy-bg.jpg")' }}
+        style={{ backgroundImage: `url("${import.meta.env.BASE_URL}philosophy-bg.jpg")` }}
       />
       <div className="relative z-10 max-w-4xl scroll-m-20 mx-auto text-center">
         <h2 className="philo-text font-serif italic text-5xl md:text-7xl text-clay mb-10">
